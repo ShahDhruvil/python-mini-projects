@@ -11,7 +11,6 @@ def play_turn(player_name):
   while True:
     roll = roll_die()
     print(f'You rolled a {roll}')
-    print("--*--------*--")
 
     if roll == 1:
       return 0
